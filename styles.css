@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+
+#animal-photos{
+	background-color: gray;
+}
+
+#animal-photos>h1{
+	text-align: center;
+	margin-inline: auto;
+	text-transform: uppercase;
+	color: white;
+}
+
+.img_container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 70%;
+	margin-inline: auto;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.img_container>img{
+	width: 100px;
+	border-radius: 10px;
+	
+}
